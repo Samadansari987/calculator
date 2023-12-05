@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(61, 61, 61);
+}
+.container{
+    height: 500px;
+    width: 600px;
+    background-color:black ;
+    display: grid;
+    grid-template-columns:auto auto auto auto ;
+    grid-template-rows:auto auto auto auto auto ;
+    gap: 5px 5px;
+    border: 7px solid black;
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-top: 60px;
+}
+.screen{
+    grid-column: 1/3;
+    border-radius: 10px;
+    font-size: large;
+}
+.one{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 30px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+.two{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px
+}
+.three{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px
+}
+.four{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px
+}
+.five{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px
+}
+.six{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px
+}
+.seven{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px
+}
+.eight{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px
+}
+.nine{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px
+}
+.zero{
+    grid-column: 1/2;
+    grid-row: 5/6;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px
+}
+.dot{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px
+}
+.equal{
+    grid-column: 3/4;
+    grid-row: 5/6;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px
+}
+.plus{
+    grid-column: 4/5;
+    grid-row: 5/6;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px
+}
+.minus{
+    grid-column: 4/5;
+    grid-row: 4/5;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px
+}
+.multiply{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px
+}
+.divide{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 30px
+}
+.clear{
+    background-color: yellowgreen;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+}
+.buttons:hover{
+    background-color:rgb(1, 189, 1) ;
+}
+.delete{
+ grid-column: 3/4;
+ grid-row: 1/2;
+ font-size: 30px ;
+ border-radius: 10px;
+ color: white;
+ background-color: yellowgreen;
+}
+.screen:hover{
+    border: 2px solid yellow;
+}
